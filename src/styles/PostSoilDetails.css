@@ -1,0 +1,44 @@
+.post-soil {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+}
+
+.post-soil h2 {
+  color: #4B8B3B;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.post-soil input {
+  margin-bottom: 15px;
+  padding: 12px;
+  border: 1px solid #8B4513;
+  border-radius: 5px;
+  font-size: 16px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.post-soil button {
+  padding: 12px 20px;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin: 0 auto; /* Center the button */
+  width: 200px; /* Fixed width for button */
+  text-align: center;
+}
+
+.post-soil button:hover {
+  background-color: #45a049;
+}

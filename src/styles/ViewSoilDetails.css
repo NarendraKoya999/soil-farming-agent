@@ -1,0 +1,47 @@
+/* src/styles/ViewSoilDetails.css */
+.soil-details-container {
+    padding: 20px; /* Padding around the container */
+    background-color: #f9f9f9; /* Light background color for the container */
+    border-radius: 8px; /* Rounded corners for the container */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  }
+  
+  h2 {
+    text-align: center; /* Center align the title */
+    color: #4caf50; /* Green color for the title */
+    margin-bottom: 20px; /* Space below the title */
+  }
+  
+  .card-container {
+    display: flex; /* Flexbox for layout */
+    flex-wrap: wrap; /* Allow cards to wrap to the next line */
+    justify-content: center; /* Center the cards */
+    gap: 20px; /* Space between cards */
+  }
+  
+  .card {
+    background-color: #fff; /* White background for each card */
+    border-radius: 8px; /* Rounded corners for cards */
+    padding: 15px; /* Padding inside cards */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Shadow for cards */
+    width: 250px; /* Fixed width for cards */
+    transition: transform 0.3s; /* Transition effect for hover */
+  }
+  
+  .card:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+  }
+  
+  .card p {
+    margin: 10px 0; /* Space above and below each paragraph */
+    color: #333; /* Dark gray color for text */
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .card {
+      width: 100%; /* Full width on smaller screens */
+      margin: 0 10px; /* Margin for small screens */
+    }
+  }
+  

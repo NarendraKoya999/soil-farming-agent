@@ -1,0 +1,13 @@
+/* Layout styles */
+.layout-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensure layout takes up full screen */
+  }
+  
+  main {
+    flex: 1; /* Main content area takes up the available space */
+    padding: 20px;
+    background-color: #f5f5f5; /* Light background for content area */
+  }
+  

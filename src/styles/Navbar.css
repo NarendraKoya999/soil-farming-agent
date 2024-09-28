@@ -1,0 +1,94 @@
+/* src/styles/Navbar.css */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #4caf50; /* Green background for agriculture theme */
+  padding: 10px 20px; /* Padding for navbar */
+  color: white; /* White text color */
+}
+
+.logo {
+  font-size: 1.5em; /* Logo font size */
+  font-weight: bold; /* Bold font weight for logo */
+}
+
+.nav-links {
+  display: flex;
+  align-items: center; /* Center links vertically */
+  transition: max-height 0.3s ease-in-out; /* Smooth transition for dropdown */
+  overflow: hidden; /* Hide overflow for dropdown */
+}
+
+.nav-links a {
+  color: white; /* White link color */
+  text-decoration: none; /* No underline on links */
+  margin: 0 15px; /* Spacing between links */
+  padding: 10px; /* Padding for clickable area */
+  border-radius: 4px; /* Rounded corners */
+  transition: background-color 0.3s; /* Smooth transition for hover */
+}
+
+.nav-links a:hover {
+  background-color: rgba(255, 255, 255, 0.2); /* Light hover effect */
+}
+
+button {
+  background-color: transparent; /* Transparent background for button */
+  color: white; /* White text for button */
+  border: 1px solid white; /* White border */
+  border-radius: 4px; /* Rounded corners */
+  padding: 10px 15px; /* Padding for button */
+  cursor: pointer; /* Pointer cursor for button */
+  margin-left: 15px; /* Spacing from previous link */
+  transition: background-color 0.3s, color 0.3s; /* Transition for hover effects */
+}
+
+button:hover {
+  background-color: white; /* Change background on hover */
+  color: #4caf50; /* Change text color on hover */
+}
+
+/* Hamburger Menu Styles */
+.hamburger {
+  display: none; /* Hide hamburger by default */
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.bar {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  margin: 4px 0; /* Space between bars */
+  transition: all 0.3s;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .nav-links {
+    position: absolute;
+    top: 60px; /* Adjust based on navbar height */
+    right: 0;
+    background-color: #4caf50; /* Same background color as navbar */
+    flex-direction: column; /* Stack links vertically */
+    align-items: flex-end; /* Align links to the right */
+    display: none; /* Hide by default */
+    width: 100%; /* Full width */
+    padding: 10px 0; /* Padding around links */
+    border-top: 1px solid rgba(255, 255, 255, 0.2); /* Top border for dropdown */
+  }
+
+  .nav-links.open {
+    display: flex; /* Show when menu is open */
+  }
+
+  .hamburger {
+    display: flex; /* Show hamburger in mobile view */
+  }
+
+  /* Ensure button has no margin in mobile view */
+  button {
+    margin: 10px 5px; /* Add vertical margin for spacing in mobile view */
+  }
+}
