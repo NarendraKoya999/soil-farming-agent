@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
 import { auth } from './utils/firebaseConfig';
 import { onAuthStateChanged, signOut } from 'firebase/auth';
 import Layout from './components/Layout/Layout'; 
