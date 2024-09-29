@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/soil-farming-agent/static/css/main.d3492c8a.css",
-    "main.js": "/soil-farming-agent/static/js/main.0660f0b2.js",
+    "main.js": "/soil-farming-agent/static/js/main.5a589851.js",
     "static/js/453.59e41a61.chunk.js": "/soil-farming-agent/static/js/453.59e41a61.chunk.js",
     "index.html": "/soil-farming-agent/index.html",
     "main.d3492c8a.css.map": "/soil-farming-agent/static/css/main.d3492c8a.css.map",
-    "main.0660f0b2.js.map": "/soil-farming-agent/static/js/main.0660f0b2.js.map",
+    "main.5a589851.js.map": "/soil-farming-agent/static/js/main.5a589851.js.map",
     "453.59e41a61.chunk.js.map": "/soil-farming-agent/static/js/453.59e41a61.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d3492c8a.css",
-    "static/js/main.0660f0b2.js"
+    "static/js/main.5a589851.js"
   ]
 }
