@@ -1,43 +1,41 @@
-/* styles/ViewDistributorDetails.css */
-
 .distributor-details-container {
-  padding: 20px; /* Padding for the container */
-  background-color: #ffffff; /* White background for the details section */
-  border-radius: 8px; /* Rounded corners */
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
-  margin: 20px auto; /* Centering the container */
-  max-width: 600px; /* Max width to control the size */
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  max-width: 600px;
 }
 
 .distributor-details-container h2 {
-  color: #8B4513; /* Dark brown color for headings */
-  text-align: center; /* Center align the heading */
-  margin-bottom: 15px; /* Space below the heading */
+  color: #8B4513;
+  text-align: center;
+  margin-bottom: 15px;
 }
 
 .card-container {
-  display: flex; /* Flexbox for card layout */
-  flex-wrap: wrap; /* Wrap cards on smaller screens */
-  justify-content: space-between; /* Space between cards */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .card {
-  background-color: #f9f9f9; /* Light grey background for cards */
-  border: 1px solid #8B4513; /* Dark brown border */
-  border-radius: 5px; /* Rounded corners */
-  padding: 15px; /* Padding inside cards */
-  margin: 10px; /* Margin around cards */
-  flex: 1 1 calc(48% - 20px); /* Responsive card size */
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* Shadow for cards */
+  background-color: #f9f9f9;
+  border: 1px solid #8B4513;
+  border-radius: 5px;
+  padding: 15px;
+  margin: 10px;
+  flex: 1 1 calc(48% - 20px);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 }
 
 .card p {
-  margin: 5px 0; /* Space between paragraphs */
+  margin: 5px 0;
 }
 
 /* Responsive Styles */
 @media (max-width: 768px) {
   .card {
-    flex: 1 1 100%; /* Full width on smaller screens */
+    flex: 1 1 100%;
   }
 }

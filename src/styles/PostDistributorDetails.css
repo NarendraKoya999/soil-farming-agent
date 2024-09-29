@@ -1,6 +1,6 @@
 .post-distributor {
-  max-width: 500px; /* Set a max width for form container */
-  margin: 0 auto; /* Center the form horizontally */
+  max-width: 500px;
+  margin: 0 auto;
   padding: 20px;
   background-color: #ffffff;
   border-radius: 8px;
@@ -34,8 +34,8 @@
   border-radius: 8px;
   cursor: pointer;
   transition: background-color 0.3s;
-  margin: 0 auto; /* Center the button horizontally */
-  width: 200px; /* Set a fixed width */
+  margin: 0 auto;
+  width: 200px;
   text-align: center;
 }
 

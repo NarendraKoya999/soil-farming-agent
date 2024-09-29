@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from './Navbar';
-import Footer from './Footer'; // Import the Footer component
-import '../../styles/Layout.css'; // Optional styling for layout
+import Footer from './Footer';
+import '../../styles/Layout.css';
 
 const Layout = ({ user, onLogout, children }) => {
   return (

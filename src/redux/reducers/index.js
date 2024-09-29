@@ -1,9 +1,8 @@
 import { combineReducers } from 'redux';
-// Import your individual reducers here
-import authReducer from './authReducer'; // Adjust the path based on your structure
+import authReducer from './authReducer';
 
 const rootReducer = combineReducers({
-  auth: authReducer, // Add more reducers as needed
+  auth: authReducer,
 });
 
 export default rootReducer;

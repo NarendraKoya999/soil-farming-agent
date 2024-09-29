@@ -1,10 +1,9 @@
-/* Footer Styles */
 .footer {
-    background-color: #4caf50; /* Green background for footer */
-    color: white; /* White text color */
-    text-align: center; /* Center the text */
-    padding: 20px 0; /* Padding around footer */
-    position: relative; /* Ensure the footer stays at the bottom */
+    background-color: #4caf50;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
     bottom: 0;
     width: 100%;
   }
@@ -21,18 +20,18 @@
   .footer-links a {
     color: white;
     text-decoration: none;
-    margin: 0 10px; /* Spacing between links */
+    margin: 0 10px;
     font-size: 14px;
   }
   
   .footer-links a:hover {
-    text-decoration: underline; /* Underline on hover */
+    text-decoration: underline;
   }
   
   /* Responsive Footer */
   @media (max-width: 768px) {
     .footer-links a {
-      display: block; /* Stack links vertically on mobile */
+      display: block;
       margin: 5px 0;
     }
   }

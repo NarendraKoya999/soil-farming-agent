@@ -2,23 +2,23 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh; /* Full viewport height */
-  background-color: #f0f4f7; /* Light background color */
+  height: 100vh;
+  background-color: #f0f4f7;
 }
 
 .login-card {
   background:url('https://images.unsplash.com/photo-1519462568576-0c687427fb2e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') center center/cover no-repeat;
   padding: 40px;
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   max-width: 400px;
-  width: 100%; /* Make card responsive */
+  width: 100%;
   text-align: center;
 }
 
 .login-card input {
   width: 100%;
-  padding: 12px; /* Adjust padding for consistency */
+  padding: 12px;
   margin: 15px 0;
   border: 1px solid #ccc;
   border-radius: 5px;
@@ -26,10 +26,10 @@
 }
 
 .login-card button {
-  width: 200px; /* Fixed button width */
-  padding: 12px; /* Padding */
-  margin: 0 auto; /* Center button horizontally */
-  background-color: #4caf50; /* Green button */
+  width: 200px;
+  padding: 12px;
+  margin: 0 auto;
+  background-color: #4caf50;
   color: white;
   border: none;
   border-radius: 5px;
@@ -39,7 +39,7 @@
 }
 
 .login-card button:hover {
-  background-color: #45a049; /* Darker green on hover */
+  background-color: #45a049;
 }
 
 .login-card h2:hover{

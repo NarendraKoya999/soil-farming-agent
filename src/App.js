@@ -8,7 +8,7 @@ import Register from './components/Auth/Register';
 import AdminDashboard from './components/Admin/AdminDashboard';
 import UserDashboard from './components/User/UserDashboard';
 import AdminRoute from './components/Admin/AdminRoute';
-import HomePage from './components/Home/HomePage'; // Import new HomePage
+import HomePage from './components/Home/HomePage';
 
 const App = () => {
   const [user, setUser] = useState(null);
@@ -36,7 +36,7 @@ const App = () => {
           <Route path="/register" element={user ? <Navigate to="/" /> : <Register />} />
           <Route path="/admin" element={user ? <AdminRoute><AdminDashboard /></AdminRoute> : <Navigate to="/login" />} />
           <Route path="/user" element={user ? <UserDashboard /> : <Navigate to="/login" />} />
-          <Route path="/" element={<HomePage />} /> {/* Use HomePage component */}
+          <Route path="/" element={<HomePage />} />
         </Routes>
       </Layout>
     </Router>

@@ -1,49 +1,47 @@
-/* src/styles/AdminDashboard.css */
-
 .admin-dashboard {
   padding: 20px;
-  background-color: #f9f9f9; /* Light background for the dashboard */
-  border-radius: 8px; /* Rounded corners */
+  background-color: #f9f9f9;
+  border-radius: 8px;
 }
 
 .dashboard-title {
-  text-align: center; /* Center the title */
+  text-align: center;
   font-size: 24px;
   margin-bottom: 20px;
 }
 
 .tab-container {
-  display: flex; /* Use flexbox for horizontal layout */
-  justify-content: center; /* Center tabs horizontally */
+  display: flex;
+  justify-content: center;
   margin-bottom: 20px;
 }
 
 .tab {
-  background-color: #4caf50; /* Green background for tabs */
-  color: white; /* White text color */
+  background-color: #4caf50;
+  color: white;
   border: none;
   padding: 10px 20px;
   margin: 0 5px;
   cursor: pointer;
   font-size: 16px;
-  border-radius: 5px; /* Rounded corners for tabs */
-  transition: background-color 0.3s; /* Smooth background change */
+  border-radius: 5px;
+  transition: background-color 0.3s;
 }
 
 .tab:hover {
-  background-color: #45a049; /* Darker green on hover */
+  background-color: #45a049;
 }
 
 .active {
-  background-color: #388e3c; /* Darker green for the active tab */
+  background-color: #388e3c;
 }
 
 .content-container {
   display: flex;
-  justify-content: center; /* Center the content */
-  align-items: center; /* Align items vertically */
+  justify-content: center;
+  align-items: center;
   padding: 20px;
-  border: 1px solid #ddd; /* Light border around content */
-  border-radius: 8px; /* Rounded corners for content */
+  border: 1px solid #ddd;
+  border-radius: 8px;
   background:url('https://images.unsplash.com/photo-1519462568576-0c687427fb2e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') center center/cover no-repeat;
 }
